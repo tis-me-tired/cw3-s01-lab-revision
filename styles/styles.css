@@ -1,0 +1,171 @@
+/*------------------------------------
+   SETTINGS
+------------------------------------*/
+
+/*  variables? */
+
+
+
+
+
+
+
+
+/*------------------------------------
+   GENERIC
+------------------------------------*/
+
+/*  reset, normalize? */
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+li, ul{
+    margin: 0;
+    list-style: none;
+    padding: 0 10px;
+}
+
+h1, h2{
+    margin: 0;
+}
+
+h2{
+    color: deeppink;
+}
+
+
+
+
+
+/*------------------------------------
+   ELEMENTS
+------------------------------------*/
+
+/*  balise de base, pas de classe donc => body, a par défaut, h1?  */
+
+body{
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #2D2D2D
+}
+
+a{
+    margin:0;
+    text-decoration: none;
+    color: #2D2D2D;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: deeppink;
+}
+
+h1{
+    font-family: 'Expletus Sans', cursive ;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 125px;
+}
+
+h2{
+    font-family: 'Expletus Sans', cursive ;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 83px;
+}
+
+
+
+
+/*------------------------------------
+   COMPONENTS
+------------------------------------*/
+
+/*  header, btn?  */
+
+.conteneur{
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.header-principal{
+    background-color: blueviolet;
+    padding: 20px 0;
+}
+
+.nav-principale ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hero{
+    align-items: center;
+    background: #FFC107;
+    display: flex;
+    justify-content: center;
+    min-height: 300px;
+}
+
+.hero h1{
+    padding: 88px 0;
+
+}
+
+.information{
+    padding: 30px 0;
+}
+
+.information .conteneur{
+    display: flex;
+    justify-content: space-between;
+}
+
+.carte{
+    background: #F0F0F0;
+    display: flex;
+    flex-direction: column;
+    width: 31%;
+}
+
+.carte header{
+    padding: 60px 0;
+    text-align: center;
+}
+
+.carte:nth-child(1)header{
+    background: #E34E26;
+}
+
+.carte:nth-child(2)header{
+    background: #0270BB;
+}
+
+.carte:nth-child(3)header{
+    background: #F8DC3D;
+}
+
+.conteneur .content{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+
+
+/*------------------------------------
+   UTILITIES
+------------------------------------*/
+
+/*  responsive??  */
